@@ -1,0 +1,6 @@
+framework module Pods_TudoNosso_TudoNossoUITests {
+  umbrella header "Pods-TudoNosso-TudoNossoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

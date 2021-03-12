@@ -1,0 +1,97 @@
+/* 
+  Localizable.strings
+  CampusSelvagem
+
+  Created by João Pedro de Amorim on 06/02/20.
+  Copyright © 2020 Felipe Semissatto. All rights reserved.
+*/
+
+"Place where it was spotted" = "Local em que foi avistado";
+"Animals" = "Animais";
+"Plants" = "Plantas";
+"Map" = "Mapa";
+"Pictures of" = "Imagens de";
+"Delete image" = "Deletar imagem";
+"Double tap to remove image" = "Duplo toque para remover imagem";
+"Living being name" = "Nome do ser vivo";
+"Enable animations" = "Habilitar animações";
+"Amphibian" = "Anfíbio";
+"Bird" = "Aves";
+"Mammal" = "Mamífero";
+"Reptile" = "Réptil";
+"Fish" = "Peixes";
+"Insect" = "Insetos";
+"Pteridophytes" = "Pteridófitas";
+"Angiosperms" = "Angiospermas";
+"Briophytes" = "Briófitas";
+"Gimnosperms" = "Gimnospermas";
+"Search for the name of the animal" = "Procure o nome do animal";
+"Search for the name of the plant" = "Procure o nome da planta";
+"Name" = "Nome";
+"Send" = "Enviar";
+"Clear all" =  "Apagar tudo";
+"Do you want to send the data?" = "Quer enviar os dados?";
+"Cancel" = "Cancelar";
+"Open camera" = "Abrir câmera";
+"Open gallery" = "Abrir galeria";
+"Wish to erase all data?" = "Wish to erase all data?";
+"All data will be lost" = "All data will be lost";
+"Delete image" = "Delete image";
+"Data was saved" = "Data was saved";
+"Your sent data is being analyzed" = "Your sent data is being analyzed";
+"Error" = "Error";
+"Verify your connection" = "Verify your connection";
+"It's necessary to add at least an image!" = "It's necessary to add at least an image!";
+"Add image" = "Add image";
+"Double tap to add image" = "Double tap to add image";
+"Scientific name" = "Nome científico";
+"Type" = "Tipo";
+"Habitat/Biome" = "Hábitat/Bioma";
+"Location" = "Localização";
+"Curiosity" = "Curiosidade";
+"Unknown" = "Desconhecido";
+"Amphibian" = "Anfíbio";
+"Birds" = "Aves";
+"Mammals" = "Mamíferos";
+"Reptiles" = "Reptéis";
+"Insects" = "Insetos";
+"Fish" = "Peixe";
+"Briophytes" = "Briófitas";
+"Angiosperms" = "Angiospermas";
+"Pteridophytes" = "Pteridófitas";
+"Gimnosperms" = "Gimnospermas";
+"Burrowing owl" = "Coruja Buraqueira";
+"FEAGRIS's parking lot" = "Estacionamento da FEAGRI";
+"Brazilian restinga and cerrado" = "Restingas e cerrados.";
+"Male individuals stay out of the nest with the task of watching, resting and observing. The presence of female individuals is more subtle, due to its permanence inside of the burrow. They feed off small rodents, reptiles, amphibians, birds (such as sparrows), scorpions, etc." = "Os machos permanecem fora do ninho com a função de vigiar, descansar e observar. A presença da fêmea é mais oculta, devido a sua permanência no interior da toca. Alimenta-se de pequenos roedores, répteis, anfíbios, pequenos insetos, pequenos pássaros como pardais, escorpiões, etc.";
+"Peregrine falcon" = "Falcão-Peregrino";
+"It can be seen everyewhere on campus, though it's more frequently seen around the Performing Arts building" = "Pode ser avistado por todo o campus, sendo a maior parte delas perto do prédio de Artes Cênicas.";
+"It can be seen in all continents, except Antartica" = "Pode ser encontrada em todos os continentes exceto na Antártida.";
+"Nowadays this bird is considered the fastest bird on earth, being able to achieve around 199 mph or more" = "Atualmente a ave é considerada o animal mais veloz do mundo, podendo atingir cerca de 320 km/h ou mais.";
+"Southern caracara" = "Carcará";
+"It can be seen around all campus, most frequently around the buildings of the Institute of Arts and the Institute of linguistics" = "Pode ser avistado por todo o campus, porém aparecem frequentemente próximos ao IA e ao IEL";
+"It inhabits the center and south regions of South America" = "Habita o centro e o sul de toda a América do Sul.";
+"In order to communicate with other individuals in its territory or to comunnicate with its partner, it shouts a chant from which its name is originated from" = "Para avisar os outros carcarás de seu território ou comunicação entre o casal, possui um chamado que origina o seu nome comum, “carcará”";
+"Curl-crested jay" = "Gralha-do-Campo";
+"It can mostly be seen around the lake house" = "Podem ser vistas principalmente próximas a casa do lago";
+"Native to brazilian cerrado and caatinga" = "Nativa dos cerrados e da caatinga";
+"Their flocks usually have a determined region and fly the same course everyday, turning predictable theirs visiting hour to certain spots in some cases." = "Os bandos costumam ter um território e normalmente percorrem um mesmo trajeto todos os dias, tornando previsíveis seus horários de visita a certos locais em alguns casos.";
+"Hedgehog"  = "Ouriço-cacheiro";
+"It can be spotted around all campus, though more frequently they appear next to the building of the dep. of Medical Sciences" =  "Pode ser avistado por todo o campus, porém aparecem frequentemente próximos da FCM";
+"They inhabit in Brazil, occuring from the state of Rio de Janeiro until Rio Grande do Sul, including Minas Gerais" = "Ocorre desde o Rio de Janeiro até o Rio Grande do Sul, incluindo Minas Gerais.";
+"They only conceive one cub per litter" = "Produzem um unico filhote por ninhada.";
+"Tegu lizard" = "Teiu";
+"They can be seen around all campus, but more frequently near the building of the Computer and Eletrical engineering dep." = "Pode ser avistado por todo o campus, porém aparecem frequentemente próximos da FEEC.";
+"They inhabit all of Brazil (except for the Amazon rainforest area) and places such as the north of Argentina and Uruguay" = "Habita grande parte do Brasil (com exceção da floresta amazônica) e norte da Argentina e Uruguai";
+"They have the capacity to increase their metabolic rate in copulation season to rates similar to those of mammals and birds, generating heat and keeping their body temperature higher than of its environment." = "Possui a capacidade de aumentar a sua taxa metabólica durante o período reprodutivo a níveis próximos ao de mamíferos e aves, gerando calor e mantendo sua temperatura mais elevada do que a do ambiente.";
+"European mantis" = "Mantis religiosa";
+"It can be seen around all campus, but they more frequently appear next to the student council building." = "Pode ser avistado por todo o campus, porém aparecem frequentemente próximos ao DCE";
+"They can be found in south Europe, Americas, Asia, Africa and Australia" = "Podem ser encontrados no sul da europa, américa, Asia, Africa e Australia";
+"Its courting and pairing can be separated in two stages: preliminar courting and copulation itself. Premilinar courting starts with the eye contact of those individuals and it ends at the start of the first physical contact. Copulation starts with the first physical contact and it ends with the deposit of the spermatofagus." = "O cortejo e pareamento são separados em dois passos: cortejo preliminar e copulação. O cortejo preliminar começa com o contato visual dos animais e termina com o primeiro contato físico. Copulação começa com o primeiro contato e termina com o depósito do espermatófago";
+"Cannon ball tree" = "Abricó-de-macaco";
+"Peace square" = "Praça da Paz";
+"Brazil's atlantic forest area" = "Mata Atlântica";
+"It can reach heights between 19 and 49 ft" = "Podem ter altura média entre 8 e 15 metros";
+"Brazilwood" = "Pau Brasil";
+"Atlantic florest" = "Mata Atlântica";
+"It's considered a national symbol" = "Árvore considerada símbolo nacional.";

@@ -1,0 +1,39 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "6hs-9y-CDB"; */
+"6hs-9y-CDB.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "AQZ-b3-Xoc"; */
+"AQZ-b3-Xoc.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Register"; ObjectID = "AfZ-uK-qVh"; */
+"AfZ-uK-qVh.title" = "Registrar";
+
+/* Class = "UITextField"; placeholder = "Nome do Ser Vivo"; ObjectID = "MCX-wN-tgZ"; */
+"MCX-wN-tgZ.placeholder" = "Nome do Ser Vivo";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "NaP-rl-A29"; */
+"NaP-rl-A29.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Local onde foi avistado"; ObjectID = "OB0-CD-44h"; */
+"OB0-CD-44h.placeholder" = "Local onde foi avistado";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "UH2-3b-Os9"; */
+"UH2-3b-Os9.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "WMh-1R-vJv"; */
+"WMh-1R-vJv.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Apagar Tudo"; ObjectID = "ivb-Y4-10C"; */
+"ivb-Y4-10C.normalTitle" = "Apagar Tudo";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "sLu-Vt-M8M"; */
+"sLu-Vt-M8M.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vjf-n3-GYk"; */
+"vjf-n3-GYk.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Enviar"; ObjectID = "wSy-b9-Sb3"; */
+"wSy-b9-Sb3.normalTitle" = "Enviar";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "yFw-uM-b1O"; */
+"yFw-uM-b1O.normalTitle" = "Button";

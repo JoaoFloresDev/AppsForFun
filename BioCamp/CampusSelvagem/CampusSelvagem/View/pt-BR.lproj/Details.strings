@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "lblScientificName"; ObjectID = "01a-RK-nYr"; */
+"01a-RK-nYr.text" = "lblScientificName";
+
+/* Class = "UILabel"; text = "lblNameContent"; ObjectID = "4JK-EU-Owo"; */
+"4JK-EU-Owo.text" = "lblNameContent";
+
+/* Class = "UILabel"; text = "lblScientificNameContent"; ObjectID = "6e4-O0-H5h"; */
+"6e4-O0-H5h.text" = "lblScientificNameContent";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "EbU-Vq-8zC"; */
+"EbU-Vq-8zC.title" = "Item";
+
+/* Class = "UILabel"; text = "lblHabitatBiome"; ObjectID = "SlG-Rp-yMz"; */
+"SlG-Rp-yMz.text" = "lblHabitatBiome";
+
+/* Class = "UILabel"; text = "lblLocationContent"; ObjectID = "UIo-0M-8j6"; */
+"UIo-0M-8j6.text" = "lblLocationContent";
+
+/* Class = "UILabel"; text = "lblLocation"; ObjectID = "Wog-sK-Kff"; */
+"Wog-sK-Kff.text" = "lblLocation";
+
+/* Class = "UILabel"; text = "lblCuriosity"; ObjectID = "XDo-75-QJs"; */
+"XDo-75-QJs.text" = "lblCuriosity";
+
+/* Class = "UILabel"; text = "lblHabitatBiomeContent"; ObjectID = "Xei-Uu-rXY"; */
+"Xei-Uu-rXY.text" = "lblHabitatBiomeContent";
+
+/* Class = "UINavigationItem"; title = "Informações"; ObjectID = "i4a-K0-scC"; */
+"i4a-K0-scC.title" = "Informações";
+
+/* Class = "UILabel"; text = "lblType"; ObjectID = "kdV-TO-FhT"; */
+"kdV-TO-FhT.text" = "lblType";
+
+/* Class = "UILabel"; text = "lblTypeContent"; ObjectID = "lcl-dm-O4f"; */
+"lcl-dm-O4f.text" = "lblTypeContent";
+
+/* Class = "UILabel"; text = "lblName"; ObjectID = "vgl-z7-bYv"; */
+"vgl-z7-bYv.text" = "lblName";
+
+/* Class = "UILabel"; text = "lblCuriosityContent"; ObjectID = "w2M-yw-2mc"; */
+"w2M-yw-2mc.text" = "lblCuriosityContent";

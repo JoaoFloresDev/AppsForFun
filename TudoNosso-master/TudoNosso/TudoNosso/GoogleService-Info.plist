@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>187711491497-he9fln79nus5eqvrh8rt7ko3sss4llo4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.187711491497-he9fln79nus5eqvrh8rt7ko3sss4llo4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCqY4lOgHbvOUiCPPlRGttbIQDC7_b9-Lw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>187711491497</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>joaoFlores.TudoNosso</string>
+	<key>PROJECT_ID</key>
+	<string>tudonosso-4e5dc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tudonosso-4e5dc.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:187711491497:ios:b3905039bb948c302808b8</string>
+	<key>DATABASE_URL</key>
+	<string>https://tudonosso-4e5dc.firebaseio.com</string>
+</dict>
+</plist>

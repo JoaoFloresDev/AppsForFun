@@ -1,0 +1,102 @@
+/* 
+  Localizable.strings
+  CampusSelvagem
+
+  Created by João Pedro de Amorim on 06/02/20.
+  Copyright © 2020 Felipe Semissatto. All rights reserved.
+*/
+
+"Place where it was spotted" = "Place where it was spotted";
+"Animals" = "Animals";
+"Map" = "Map";
+"Pictures of" = "Pictures of";
+"Clear all" = "Clear all";
+"Double tap to remove image" = "Double tap to remove image";
+"Send" = "Send";
+"Living being name" = "Living being name";
+"Enable animations" = "Enable animations";
+"Plants" = "Plants";
+"Amphibian" = "Amphibian";
+"Bird" = "Bird";
+"Name" = "Name";
+"Mammal" = "Mammal";
+"Reptile" = "Reptile";
+"Fish" = "Fish";
+"Insect" = "Insect";
+"Pteridophytes" = "Pteridophytes";
+"Angiosperms" = "Angiosperms";
+"Briophytes" = "Briophytes";
+"Gimnosperms" = "Gimnosperms";
+"Search for the name of the animal" = "Search for the name of the animal";
+"Search for the name of the plant" = "Search for the name of the plant";
+"Do you want to send the data?" = "Do you want to send the data?";
+"Cancel" = "Cancel";
+"Open camera" = "Open camera";
+"Open gallery" = "Open gallery";
+"Wish to erase all data?" = "Wish to erase all data?";
+"All data will be lost" = "All data will be lost";
+"Delete image" = "Delete image";
+"Data was saved" = "Data was saved";
+"Your sent data is being analyzed" = "Your sent data is being analyzed";
+"Error" = "Error";
+"Verify your connection" = "Verify your connection";
+"It's necessary to add at least an image!" = "It's necessary to add at least an image!";
+"Add image" = "Add image";
+"Double tap to add image" = "Double tap to add image";
+"Scientific name" = "Scientific name";
+"Type" = "Type";
+"Habitat/Biome" = "Habitat/Biome";
+"Location" = "Location";
+"Curiosity" = "Curiosity";
+"Unknown" = "Unknown";
+"Amphibian" = "Amphibian";
+"Birds" = "Birds";
+"Mammals" = "Mammals";
+"Reptiles" = "Reptiles";
+"Insects" = "Insects";
+"Fish" = "Fish";
+"Briophytes" = "Briophytes";
+"Pteridophytes" = "Pteridophytes";
+"Gimnosperms" = "Gimnosperms";
+"Angiosperms" = "Angiosperms";
+"Burrowing owl" = "Burrowing owl";
+"FEAGRIS's parking lot" = "FEAGRIS's parking lot";
+"Brazilian restinga and cerrado" = "Brazilian restinga and cerrado";
+"Male individuals stay out of the nest with the task of watching, resting and observing. The presence of female individuals is more subtle, due to its permanence inside of the burrow. They feed off small rodents, reptiles, amphibians, birds (such as sparrows), scorpions, etc." = "Male individuals stay out of the nest with the task of watching, resting and observing. The presence of female individuals is more subtle, due to its permanence inside of the burrow. They feed off small rodents, reptiles, amphibians, birds (such as sparrows), scorpions, etc.";
+"Peregrine falcon" = "Peregrine falcon";
+"It can be seen everyewhere on campus, though it's more frequently seen around the Performing Arts building" = "It can be seen everyewhere on campus, though it's more frequently seen around the Performing Arts building";
+"It can be seen in all continents, except Antartica" = "It can be seen in all continents, except Antartica";
+"Nowadays this bird is considered the fastest bird on earth, being able to achieve around 199 mph or more" = "Nowadays this bird is considered the fastest bird on earth, being able to achieve around 199 mph or more";
+"Southern caracara" = "Southern caracara";
+"It can be seen around all campus, most frequently around the buildings of the Institute of Arts and the Institute of linguistics" = "It can be seen around all campus, most frequently around the buildings of the Institute of Arts and the Institute of linguistics";
+"It inhabits the center and south regions of South America" = "It inhabits the center and south regions of South America";
+"In order to communicate with other individuals in its territory or to comunnicate with its partner, it shouts a chant from which its name is originated from" = "In order to communicate with other individuals in its territory or to comunnicate with its partner, it shouts a chant from which its name is originated from";
+"Curl-crested jay" = "Curl-crested jay";
+"It can mostly be seen around the lake house" = "It can mostly be seen around the lake house";
+"Native to brazilian cerrado and caatinga" = "Native to brazilian cerrado and caatinga";
+"Their flocks usually have a determined region and fly the same course everyday, turning predictable theirs visiting hour to certain spots in some cases." = "Their flocks usually have a determined region and fly the same course everyday, turning predictable theirs visiting hour to certain spots in some cases.";
+"Hedgehog"  = "Hedgehog";
+"It can be spotted around all campus, though more frequently they appear next to the building of the dep. of Medical Sciences" =  "It can be spotted around all campus, though more frequently they appear next to the building of the dep. of Medical Sciences";
+"They inhabit in Brazil, occuring from the state of Rio de Janeiro until Rio Grande do Sul, including Minas Gerais" = "They inhabit in Brazil, occuring from the state of Rio de Janeiro until Rio Grande do Sul, including Minas Gerais";
+"They only conceive one cub per litter" = "They only conceive one cub per litter";
+"Tegu lizard" = "Tegu lizard";
+"They can be seen around all campus, but more frequently near the building of the Computer and Eletrical engineering dep." = "They can be seen around all campus, but more frequently near the building of the Computer and Eletrical engineering dep.";
+"They inhabit all of Brazil (except for the Amazon rainforest area) and places such as the north of Argentina and Uruguay" = "They inhabit all of Brazil (except for the Amazon rainforest area) and places such as the north of Argentina and Uruguay";
+"They have the capacity to increase their metabolic rate in copulation season to rates similar to those of mammals and birds, generating heat and keeping their body temperature higher than of its environment." = "They have the capacity to increase their metabolic rate in copulation season to rates similar to those of mammals and birds, generating heat and keeping their body temperature higher than of its environment.";
+"European mantis" = "European mantis";
+"It can be seen around all campus, but they more frequently appear next to the student council building." = "It can be seen around all campus, but they more frequently appear next to the student council building.";
+"They can be found in south Europe, Americas, Asia, Africa and Australia" = "They can be found in south Europe, Americas, Asia, Africa and Australia";
+"Its courting and pairing can be separated in two stages: preliminar courting and copulation itself. Premilinar courting starts with the eye contact of those individuals and it ends at the start of the first physical contact. Copulation starts with the first physical contact and it ends with the deposit of the spermatofagus." = "Its courting and pairing can be separated in two stages: preliminar courting and copulation itself. Premilinar courting starts with the eye contact of those individuals and it ends at the start of the first physical contact. Copulation starts with the first physical contact and it ends with the deposit of the spermatofagus.";
+"Cannon ball tree" = "Cannon ball tree";
+"Peace square" = "Peace square";
+"Brazil's atlantic forest area" = "Brazil's atlantic forest area";
+"It can reach heights between 19 and 49 ft" = "It can reach heights between 19 and 49 ft";
+"Brazilwood" = "Brazilwood";
+"Atlantic florest" = "Atlantic florest";
+"It's considered a national symbol" = "It's considered a national symbol";
+
+
+
+
+
+

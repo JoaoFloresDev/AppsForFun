@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OGx-83-pQH">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nunito-Bold.ttf">
+            <string>Nunito-Bold</string>
+        </array>
+        <array key="Nunito-Regular.ttf">
+            <string>Nunito-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Job-->
+        <scene sceneID="W9v-8n-uwa">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Job" id="OES-MJ-RGX" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="nn7-dL-KVF"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oWH-N2-y1z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-367" y="382"/>
+        </scene>
+        <!--Adicionar oportunidade-->
+        <scene sceneID="VI8-EI-GAe">
+            <objects>
+                <tableViewController id="OGx-83-pQH" customClass="AddJobTableViewController" customModule="TudoNosso" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="U14-Jc-PHd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <sections>
+                            <tableViewSection id="bdb-qA-hTT">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="117" id="cjz-HM-UgC" userLabel="Title">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="117"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cjz-HM-UgC" id="nKk-2L-L9j">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="117"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Título" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y54-eB-NjM">
+                                                    <rect key="frame" x="20" y="35" width="374" height="19.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="19.5" id="BDM-xs-iAc"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Nunito-Bold" family="Nunito" pointSize="14"/>
+                                                    <color key="textColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yh7-7j-K2o">
+                                                    <rect key="frame" x="20" y="62.5" width="374" height="43"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="43" id="oXb-oI-KIp"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" returnKeyType="done" textContentType="name"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="yh7-7j-K2o" firstAttribute="top" secondItem="y54-eB-NjM" secondAttribute="bottom" constant="8" id="3hb-Ih-7dm"/>
+                                                <constraint firstItem="yh7-7j-K2o" firstAttribute="leading" secondItem="nKk-2L-L9j" secondAttribute="leadingMargin" id="50N-dP-ObJ"/>
+                                                <constraint firstItem="y54-eB-NjM" firstAttribute="top" secondItem="nKk-2L-L9j" secondAttribute="topMargin" constant="24" id="5hY-ho-CHD"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="yh7-7j-K2o" secondAttribute="trailing" id="69F-hd-aSy"/>
+                                                <constraint firstItem="y54-eB-NjM" firstAttribute="leading" secondItem="nKk-2L-L9j" secondAttribute="leadingMargin" id="jUk-WC-OdW"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="y54-eB-NjM" secondAttribute="trailing" id="yGd-hE-fY7"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ztr-UL-knH" userLabel="Description">
+                                        <rect key="frame" x="0.0" y="145" width="414" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ztr-UL-knH" id="Py7-j6-yRy">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descrição" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="viM-Jn-S8u">
+                                                    <rect key="frame" x="20" y="11" width="374" height="16.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="16.5" id="gCZ-ZZ-p0R"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Nunito-Bold" family="Nunito" pointSize="14"/>
+                                                    <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SXF-gM-79Z">
+                                                    <rect key="frame" x="20" y="35.5" width="374" height="43"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="43" id="Ncl-gX-9UD"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="viM-Jn-S8u" firstAttribute="leading" secondItem="SXF-gM-79Z" secondAttribute="leading" id="PmL-ZW-6n5"/>
+                                                <constraint firstItem="viM-Jn-S8u" firstAttribute="trailing" secondItem="SXF-gM-79Z" secondAttribute="trailing" id="ST8-ad-3kc"/>
+                                                <constraint firstItem="viM-Jn-S8u" firstAttribute="leading" secondItem="Py7-j6-yRy" secondAttribute="leadingMargin" id="Uhn-Vb-GKg"/>
+                                                <constraint firstItem="viM-Jn-S8u" firstAttribute="top" secondItem="Py7-j6-yRy" secondAttribute="topMargin" id="bGL-Uk-j6K"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="SXF-gM-79Z" secondAttribute="bottom" id="lcJ-0b-NfD"/>
+                                                <constraint firstItem="SXF-gM-79Z" firstAttribute="top" secondItem="viM-Jn-S8u" secondAttribute="bottom" constant="8" id="nHT-tI-4Ln"/>
+                                                <constraint firstItem="viM-Jn-S8u" firstAttribute="trailing" secondItem="Py7-j6-yRy" secondAttribute="trailingMargin" id="yaG-bD-FX9"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="182" id="aFP-wq-reT" userLabel="Categories">
+                                        <rect key="frame" x="0.0" y="245" width="414" height="182"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aFP-wq-reT" id="DM5-IN-gmd">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="182"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Categorias" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TuI-yV-e4Q">
+                                                    <rect key="frame" x="16" y="0.0" width="382" height="19.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="19.5" id="Smj-t1-raj"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Nunito-Bold" family="Nunito" pointSize="14"/>
+                                                    <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="6Nh-Uv-uTo">
+                                                    <rect key="frame" x="16" y="27.5" width="382" height="132"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="3mN-Vt-zh7">
+                                                            <rect key="frame" x="0.0" y="0.0" width="382" height="15.5"/>
+                                                            <subviews>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dfx-RV-bGV" userLabel="Cultura e arte">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="191" height="15.5"/>
+                                                                    <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQU-4S-gyG" customClass="Checkbox" customModule="TudoNosso" customModuleProvider="target">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <state key="normal" image="checkbox"/>
+                                                                            <state key="selected" image="selected-checkbox"/>
+                                                                        </button>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cultura e Arte" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzE-JG-GDj">
+                                                                            <rect key="frame" x="23" y="-1" width="160" height="16.5"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="12"/>
+                                                                            <color key="textColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </view>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a2n-B6-IBm" userLabel="Saúde">
+                                                                    <rect key="frame" x="191" y="0.0" width="191" height="15.5"/>
+                                                                    <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YzZ-9Z-XOy" customClass="Checkbox" customModule="TudoNosso" customModuleProvider="target">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <state key="normal" image="checkbox"/>
+                                                                            <state key="selected" image="selected-checkbox"/>
+                                                                        </button>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Saúde" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lYa-Wi-uae">
+                                                                            <rect key="frame" x="23" y="-1" width="160" height="16.5"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="12"/>
+                                                                            <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </view>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Nsg-YV-L29">
+                                                            <rect key="frame" x="0.0" y="23.5" width="382" height="15"/>
+                                                            <subviews>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UEt-WR-TJh" userLabel="educacao">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="191" height="15"/>
+                                                                    <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3rL-hY-ZRI" customClass="Checkbox" customModule="TudoNosso" customModuleProvider="target">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <state key="normal" image="checkbox"/>
+                                                                            <state key="selected" image="selected-checkbox"/>
+                                                                        </button>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Educação" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lrg-g3-lHT">
+                                                                            <rect key="frame" x="23" y="-1" width="160" height="16.5"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="12"/>
+                                                                            <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </view>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D1d-hv-IdU" userLabel="esportes">
+                                                                    <rect key="frame" x="191" y="0.0" width="191" height="15"/>
+                                                                    <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DI0-Ge-lNw" customClass="Checkbox" customModule="TudoNosso" customModuleProvider="target">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <state key="normal" image="checkbox"/>
+                                                                            <state key="selected" image="selected-checkbox"/>
+                                                                        </button>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Esportes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FV0-V5-pVe">
+                                                                            <rect key="frame" x="23" y="-1" width="160" height="16.5"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="12"/>
+                                                                            <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </view>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="41i-rv-9rR">
+                                                            <rect key="frame" x="0.0" y="46.5" width="382" height="15.5"/>
+                                                            <subviews>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xa2-j9-rnR" userLabel="Idosos">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="191" height="15.5"/>
+                                                                    <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8dZ-cG-3KU" customClass="Checkbox" customModule="TudoNosso" customModuleProvider="target">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <state key="normal" image="checkbox"/>
+                                                                            <state key="selected" image="selected-checkbox"/>
+                                                                        </button>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Idosos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bWx-Uj-1X1">
+                                                                            <rect key="frame" x="23" y="-1" width="160" height="16.5"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="12"/>
+                                                                            <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </view>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pnz-ck-alT" userLabel="refugiados">
+                                                                    <rect key="frame" x="191" y="0.0" width="191" height="15.5"/>
+                                                                    <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLd-yU-Ov5" customClass="Checkbox" customModule="TudoNosso" customModuleProvider="target">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <state key="normal" image="checkbox"/>
+                                                                            <state key="selected" image="selected-checkbox"/>
+                                                                        </button>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Refugiados" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ekh-jk-u8L">
+                                                                            <rect key="frame" x="23" y="-1" width="160" height="16.5"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="12"/>
+                                                                            <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </view>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="zwx-UK-Fj9">
+                                                            <rect key="frame" x="0.0" y="70" width="382" height="15.5"/>
+                                                            <subviews>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dhu-9k-cQB" userLabel="criancas">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="191" height="15.5"/>
+                                                                    <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ahp-p6-gI0" customClass="Checkbox" customModule="TudoNosso" customModuleProvider="target">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <state key="normal" image="checkbox"/>
+                                                                            <state key="selected" image="selected-checkbox"/>
+                                                                        </button>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Crianças" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQT-ch-pai">
+                                                                            <rect key="frame" x="23" y="-1" width="160" height="16.5"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="12"/>
+                                                                            <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </view>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PDM-FG-whK" userLabel="lgbtq">
+                                                                    <rect key="frame" x="191" y="0.0" width="191" height="15.5"/>
+                                                                    <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D6j-B8-uWr" customClass="Checkbox" customModule="TudoNosso" customModuleProvider="target">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <state key="normal" image="checkbox"/>
+                                                                            <state key="selected" image="selected-checkbox"/>
+                                                                        </button>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LGBTQ+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="snT-Bm-xOB">
+                                                                            <rect key="frame" x="23" y="-1" width="160" height="16.5"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="12"/>
+                                                                            <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </view>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="pdt-tK-faU">
+                                                            <rect key="frame" x="0.0" y="93.5" width="382" height="15"/>
+                                                            <subviews>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vsD-dG-aYb" userLabel="meio ambiente">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="191" height="15"/>
+                                                                    <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2q-ys-D7F" customClass="Checkbox" customModule="TudoNosso" customModuleProvider="target">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <state key="normal" image="checkbox"/>
+                                                                            <state key="selected" image="selected-checkbox"/>
+                                                                        </button>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Meio Ambiente" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MEP-ve-seQ">
+                                                                            <rect key="frame" x="23" y="-1" width="160" height="17"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="12"/>
+                                                                            <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </view>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zo1-bV-jGV" userLabel="pobreza">
+                                                                    <rect key="frame" x="191" y="0.0" width="191" height="15"/>
+                                                                    <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yF5-sM-bdE" customClass="Checkbox" customModule="TudoNosso" customModuleProvider="target">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <state key="normal" image="checkbox"/>
+                                                                            <state key="selected" image="selected-checkbox"/>
+                                                                        </button>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Combate à pobreza" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mar-qs-4IQ">
+                                                                            <rect key="frame" x="23" y="-1" width="160" height="17"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="12"/>
+                                                                            <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </view>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="N7b-Nw-EUS">
+                                                            <rect key="frame" x="0.0" y="116.5" width="382" height="15.5"/>
+                                                            <subviews>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Uw-HI-rVg" userLabel="Cultura e arte">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="191" height="15.5"/>
+                                                                    <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uN8-dv-nQY" customClass="Checkbox" customModule="TudoNosso" customModuleProvider="target">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <state key="normal" image="checkbox"/>
+                                                                            <state key="selected" image="selected-checkbox"/>
+                                                                        </button>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Proteção animal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVr-4A-iPu">
+                                                                            <rect key="frame" x="23" y="-0.5" width="160" height="16.5"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="12"/>
+                                                                            <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </view>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jrw-g0-JAl" userLabel="Saúde">
+                                                                    <rect key="frame" x="191" y="0.0" width="191" height="15.5"/>
+                                                                    <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nam-2C-VmA" customClass="Checkbox" customModule="TudoNosso" customModuleProvider="target">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <state key="normal" image="checkbox"/>
+                                                                            <state key="selected" image="selected-checkbox"/>
+                                                                        </button>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Treinamento profissional" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b0H-QT-WPA">
+                                                                            <rect key="frame" x="23" y="-0.5" width="160" height="16.5"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="12"/>
+                                                                            <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </view>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="132" id="5ha-Ha-Cn9"/>
+                                                    </constraints>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="TuI-yV-e4Q" secondAttribute="trailing" constant="16" id="J4t-lI-fC7"/>
+                                                <constraint firstItem="TuI-yV-e4Q" firstAttribute="leading" secondItem="DM5-IN-gmd" secondAttribute="leading" constant="16" id="K1z-5P-q0B"/>
+                                                <constraint firstAttribute="trailing" secondItem="6Nh-Uv-uTo" secondAttribute="trailing" constant="16" id="NwM-o2-5Qw"/>
+                                                <constraint firstItem="6Nh-Uv-uTo" firstAttribute="top" secondItem="TuI-yV-e4Q" secondAttribute="bottom" constant="8" id="cF3-Hd-qNq"/>
+                                                <constraint firstItem="TuI-yV-e4Q" firstAttribute="top" secondItem="DM5-IN-gmd" secondAttribute="top" id="uLw-jY-dml"/>
+                                                <constraint firstItem="6Nh-Uv-uTo" firstAttribute="leading" secondItem="DM5-IN-gmd" secondAttribute="leading" constant="16" id="zib-PD-MAE"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="YC5-f7-XCC" userLabel="Type">
+                                        <rect key="frame" x="0.0" y="427" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YC5-f7-XCC" id="j3a-5R-rY5">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tipo de vaga" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AdI-BP-qMR">
+                                                    <rect key="frame" x="20" y="11" width="374" height="10"/>
+                                                    <fontDescription key="fontDescription" name="Nunito-Bold" family="Nunito" pointSize="14"/>
+                                                    <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="X9E-7J-EFe">
+                                                    <rect key="frame" x="16" y="29" width="382" height="15"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hlE-XR-vwB" userLabel="Recorrente">
+                                                            <rect key="frame" x="0.0" y="0.0" width="191" height="15"/>
+                                                            <subviews>
+                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wb2-XS-VNN" customClass="Checkbox" customModule="TudoNosso" customModuleProvider="target">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="15" id="QCa-ro-u9H"/>
+                                                                        <constraint firstAttribute="width" constant="15" id="iBd-WX-wLW"/>
+                                                                    </constraints>
+                                                                    <state key="normal" image="checkbox"/>
+                                                                    <state key="selected" image="selected-checkbox"/>
+                                                                </button>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recorrente" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0M1-jL-O49">
+                                                                    <rect key="frame" x="23" y="-0.5" width="160" height="16.5"/>
+                                                                    <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="12"/>
+                                                                    <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="15" id="2Sy-Wi-CSB"/>
+                                                                <constraint firstItem="0M1-jL-O49" firstAttribute="centerY" secondItem="hlE-XR-vwB" secondAttribute="centerY" id="KqI-5u-nBg"/>
+                                                                <constraint firstItem="Wb2-XS-VNN" firstAttribute="centerY" secondItem="hlE-XR-vwB" secondAttribute="centerY" id="UC9-Pv-aHC"/>
+                                                                <constraint firstItem="Wb2-XS-VNN" firstAttribute="leading" secondItem="hlE-XR-vwB" secondAttribute="leading" id="X4v-M3-Mh5"/>
+                                                                <constraint firstItem="0M1-jL-O49" firstAttribute="leading" secondItem="Wb2-XS-VNN" secondAttribute="trailing" constant="8" id="lms-So-3La"/>
+                                                                <constraint firstAttribute="trailing" secondItem="0M1-jL-O49" secondAttribute="trailing" constant="8" id="syP-Xg-rwd"/>
+                                                            </constraints>
+                                                        </view>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cih-H4-uuB" userLabel="Pontual">
+                                                            <rect key="frame" x="191" y="0.0" width="191" height="15"/>
+                                                            <subviews>
+                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ab8-Tj-Zk5" customClass="Checkbox" customModule="TudoNosso" customModuleProvider="target">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="15" id="VJm-wd-kcB"/>
+                                                                        <constraint firstAttribute="height" constant="15" id="gtB-BV-agl"/>
+                                                                    </constraints>
+                                                                    <state key="normal" image="checkbox"/>
+                                                                    <state key="selected" image="selected-checkbox"/>
+                                                                </button>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pontual" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzM-Qz-9hu">
+                                                                    <rect key="frame" x="23" y="-0.5" width="160" height="16.5"/>
+                                                                    <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="12"/>
+                                                                    <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstItem="hzM-Qz-9hu" firstAttribute="centerY" secondItem="cih-H4-uuB" secondAttribute="centerY" id="DfN-Oc-GN0"/>
+                                                                <constraint firstItem="Ab8-Tj-Zk5" firstAttribute="centerY" secondItem="cih-H4-uuB" secondAttribute="centerY" id="IaF-I4-QdD"/>
+                                                                <constraint firstItem="hzM-Qz-9hu" firstAttribute="leading" secondItem="Ab8-Tj-Zk5" secondAttribute="trailing" constant="8" id="Knb-5e-cnq"/>
+                                                                <constraint firstItem="Ab8-Tj-Zk5" firstAttribute="leading" secondItem="cih-H4-uuB" secondAttribute="leading" id="c8Q-XM-UMf"/>
+                                                                <constraint firstAttribute="trailing" secondItem="hzM-Qz-9hu" secondAttribute="trailing" constant="8" id="hcc-8p-sEt"/>
+                                                                <constraint firstAttribute="height" constant="15" id="iYe-wn-fDC"/>
+                                                            </constraints>
+                                                        </view>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="AdI-BP-qMR" firstAttribute="leading" secondItem="j3a-5R-rY5" secondAttribute="leadingMargin" id="6ah-I7-rFd"/>
+                                                <constraint firstAttribute="bottom" secondItem="X9E-7J-EFe" secondAttribute="bottom" id="BDA-PQ-qSp"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="AdI-BP-qMR" secondAttribute="trailing" id="Fdw-Y2-rVp"/>
+                                                <constraint firstAttribute="trailing" secondItem="X9E-7J-EFe" secondAttribute="trailing" constant="16" id="S5x-sj-74B"/>
+                                                <constraint firstItem="X9E-7J-EFe" firstAttribute="top" secondItem="AdI-BP-qMR" secondAttribute="bottom" constant="8" id="fx4-d2-z3T"/>
+                                                <constraint firstItem="AdI-BP-qMR" firstAttribute="top" secondItem="j3a-5R-rY5" secondAttribute="topMargin" id="l95-6Z-p1r"/>
+                                                <constraint firstItem="X9E-7J-EFe" firstAttribute="leading" secondItem="j3a-5R-rY5" secondAttribute="leading" constant="16" id="qlo-Q7-5ww"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="EIO-Gu-EtY" userLabel="Number">
+                                        <rect key="frame" x="0.0" y="470.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EIO-Gu-EtY" id="DwY-vC-bS3">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DH1-B5-bCW">
+                                                    <rect key="frame" x="16" y="38.5" width="382" height="43"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="43" id="OKp-I6-wP3"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                </textField>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Número de vagas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lws-GU-1wz">
+                                                    <rect key="frame" x="16" y="11" width="398" height="19.5"/>
+                                                    <fontDescription key="fontDescription" name="Nunito-Bold" family="Nunito" pointSize="14"/>
+                                                    <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Lws-GU-1wz" firstAttribute="top" secondItem="DwY-vC-bS3" secondAttribute="topMargin" id="5iU-n1-L0h"/>
+                                                <constraint firstAttribute="trailing" secondItem="Lws-GU-1wz" secondAttribute="trailing" id="FcF-HQ-U5C"/>
+                                                <constraint firstItem="DH1-B5-bCW" firstAttribute="top" secondItem="Lws-GU-1wz" secondAttribute="bottom" constant="8" id="JR2-aJ-Yuq"/>
+                                                <constraint firstItem="DH1-B5-bCW" firstAttribute="leading" secondItem="DwY-vC-bS3" secondAttribute="leading" constant="16" id="REu-pz-YYE"/>
+                                                <constraint firstAttribute="trailing" secondItem="DH1-B5-bCW" secondAttribute="trailing" constant="16" id="ShW-M1-duW"/>
+                                                <constraint firstAttribute="bottom" secondItem="DH1-B5-bCW" secondAttribute="bottom" constant="24" id="bXk-xe-z6q"/>
+                                                <constraint firstItem="Lws-GU-1wz" firstAttribute="leading" secondItem="DwY-vC-bS3" secondAttribute="leading" constant="16" id="yZX-vN-Uk7"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Jgd-Rc-BjD" userLabel="Address">
+                                        <rect key="frame" x="0.0" y="514" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Jgd-Rc-BjD" id="8iV-8j-Rja">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FHa-kq-rJN">
+                                                    <rect key="frame" x="16" y="38.5" width="382" height="43"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="43" id="lfy-NM-ydj"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Local" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S5r-cc-zIz">
+                                                    <rect key="frame" x="16" y="11" width="398" height="19.5"/>
+                                                    <fontDescription key="fontDescription" name="Nunito-Bold" family="Nunito" pointSize="14"/>
+                                                    <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="FHa-kq-rJN" secondAttribute="bottom" constant="24" id="3H6-gU-1Ng"/>
+                                                <constraint firstItem="FHa-kq-rJN" firstAttribute="top" secondItem="S5r-cc-zIz" secondAttribute="bottom" constant="8" id="3kN-zR-OQA"/>
+                                                <constraint firstAttribute="trailing" secondItem="S5r-cc-zIz" secondAttribute="trailing" id="HDD-pt-4Sv"/>
+                                                <constraint firstItem="FHa-kq-rJN" firstAttribute="leading" secondItem="8iV-8j-Rja" secondAttribute="leading" constant="16" id="RvA-q0-PMt"/>
+                                                <constraint firstItem="S5r-cc-zIz" firstAttribute="top" secondItem="8iV-8j-Rja" secondAttribute="topMargin" id="Uuk-MU-Yi1"/>
+                                                <constraint firstItem="S5r-cc-zIz" firstAttribute="leading" secondItem="8iV-8j-Rja" secondAttribute="leading" constant="16" id="aw8-B7-jI2"/>
+                                                <constraint firstAttribute="trailing" secondItem="FHa-kq-rJN" secondAttribute="trailing" constant="16" id="ll3-JX-1qw"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="OGx-83-pQH" id="fwa-I5-Wzq"/>
+                            <outlet property="delegate" destination="OGx-83-pQH" id="MJI-Bz-78p"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Adicionar oportunidade" id="7Q4-px-pfb">
+                        <barButtonItem key="backBarButtonItem" title="Cancelar" id="ifY-br-Spn"/>
+                        <barButtonItem key="rightBarButtonItem" title="Publicar" id="qkK-n3-PMK">
+                            <connections>
+                                <action selector="publishJobPressed:" destination="OGx-83-pQH" id="Ez9-T3-DqO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="addressInput" destination="FHa-kq-rJN" id="A47-11-GYh"/>
+                        <outlet property="animals" destination="uN8-dv-nQY" id="GLf-h4-YGS"/>
+                        <outlet property="childrenCheck" destination="ahp-p6-gI0" id="cUA-sK-saY"/>
+                        <outlet property="cultureAndArt" destination="PQU-4S-gyG" id="dT1-Ck-cI6"/>
+                        <outlet property="descriptionInput" destination="SXF-gM-79Z" id="Gle-qY-YnG"/>
+                        <outlet property="education" destination="3rL-hY-ZRI" id="WM0-d0-9Lq"/>
+                        <outlet property="elders" destination="8dZ-cG-3KU" id="iOi-9O-WrB"/>
+                        <outlet property="environment" destination="p2q-ys-D7F" id="a8f-Tc-y9E"/>
+                        <outlet property="health" destination="YzZ-9Z-XOy" id="c8z-Yq-2HG"/>
+                        <outlet property="lgbtq" destination="D6j-B8-uWr" id="Pql-Dj-dZq"/>
+                        <outlet property="numberInput" destination="DH1-B5-bCW" id="NND-fF-WA7"/>
+                        <outlet property="poverty" destination="yF5-sM-bdE" id="dnP-FE-Wbo"/>
+                        <outlet property="punctualCheck" destination="Ab8-Tj-Zk5" id="ROH-ii-4Zr"/>
+                        <outlet property="recurrentCheck" destination="Wb2-XS-VNN" id="4M6-sm-vOk"/>
+                        <outlet property="refugees" destination="pLd-yU-Ov5" id="cbS-Dp-d3c"/>
+                        <outlet property="sports" destination="DI0-Ge-lNw" id="ILO-px-n0l"/>
+                        <outlet property="titleInput" destination="yh7-7j-K2o" id="6Eb-Rn-OXL"/>
+                        <outlet property="training" destination="Nam-2C-VmA" id="LWO-UZ-219"/>
+                        <segue destination="OES-MJ-RGX" kind="show" identifier="toCreatedJobDetails" id="C25-Vz-ndt"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AaI-q1-d4q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-368.11594202898556" y="-11.383928571428571"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="checkbox" width="15" height="15"/>
+        <image name="selected-checkbox" width="15" height="15"/>
+    </resources>
+</document>

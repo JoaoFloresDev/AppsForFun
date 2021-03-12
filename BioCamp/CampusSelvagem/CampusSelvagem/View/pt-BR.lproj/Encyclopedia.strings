@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Nome Científico"; ObjectID = "6cD-76-dZH"; */
+"6cD-76-dZH.text" = "Nome Científico";
+
+/* Class = "UITabBarItem"; title = "Enciclopedia"; ObjectID = "BkL-bb-X29"; */
+"BkL-bb-X29.title" = "Enciclopédia";
+
+/* Class = "UISegmentedControl"; LDi-jt-Jc5.segmentTitles[0] = "Fauna"; ObjectID = "LDi-jt-Jc5"; */
+"LDi-jt-Jc5.segmentTitles[0]" = "Fauna";
+
+/* Class = "UISegmentedControl"; LDi-jt-Jc5.segmentTitles[1] = "Flora"; ObjectID = "LDi-jt-Jc5"; */
+"LDi-jt-Jc5.segmentTitles[1]" = "Flora";
+
+/* Class = "UIBarButtonItem"; title = "Items"; ObjectID = "tEa-3G-o8n"; */
+"tEa-3G-o8n.title" = "Items";
+
+/* Class = "UILabel"; text = "Nome"; ObjectID = "yLM-0P-8YL"; */
+"yLM-0P-8YL.text" = "Nome";

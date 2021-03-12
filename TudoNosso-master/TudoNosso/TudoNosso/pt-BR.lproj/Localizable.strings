@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  TudoNosso
+
+  Created by Bruno Cardoso Ambrosio on 22/11/19.
+  Copyright © 2019 Joao Flores. All rights reserved.
+*/
+"education" = "Educação";
+"cultureAndArt" = "Cultura e arte";
+"kids" = "Crianças";
+"elderly" = "Idosos";
+"environment" = "Meio-ambiente";
+"animalProtection" = "Proteção dos animais";
+"health" = "Saúde";
+"sport" = "Esportes";
+"refugees" = "Refugiados";
+"lgbtq" = "LGBTQ+";
+"againstPoverty" = "Combate à pobreza";
+"professionalTraining" = "Treinamento profissional";
+"back" = "Voltar";
+"Participants" = "Participantes";
+"volunteer" = "Voluntário";
+"ong" = "Organização";
+"find" = "Buscar";
+
